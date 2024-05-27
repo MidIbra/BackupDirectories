@@ -1,0 +1,21 @@
+/* Continuo W3school */
+
+CREATE TABLE Impiegati(
+
+  ID_Impiegato int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+
+	     Nome varchar(255),
+	  Cognome varchar(255),
+  DataNascita DATE,
+         Foto file,
+);
+/*
+INSERT INTO Prova(Cognome, Nome, Età)
+           VALUES('Ibraimi','Midjan',20)
+
+	
+	
+SELECT *
+FROM Prova
+
+*/
